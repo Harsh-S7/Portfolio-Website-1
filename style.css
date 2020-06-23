@@ -215,7 +215,7 @@ h2{
   font-size: 3rem;
   line-height: 3.6rem;
 }
-#summary-seciton p{
+#summary-section p{
   margin-bottom: 3rem;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -224,7 +224,7 @@ h2{
 .side-col-mg{
   margin-top: 0;
 }
-#summary h4{
+#summary-section h4{
   color: cyan;
   font-size: 1.7rem;
   text-transform: uppercase;
