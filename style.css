@@ -99,9 +99,18 @@ input, select {
 #head{
   position: relative;
 }
+p{
+  display: block;
+}
+section, footer{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 .container{
   margin-left: auto;
   margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .center{
   text-align: center;
@@ -178,7 +187,7 @@ padding-left: 2rem;
   margin-left: 1rem;
   font-size: 1.1rem;
   color: #F95959;
-  content: "\00d7"
+  content: "X"
 }
 ul{
   margin-bottom: 3rem;
@@ -194,4 +203,38 @@ bottom: 0;
 z-index: -1;
 background-position: center;
 background-repeat: no-repeat;
+}
+.bg-color{
+  background-color: lightpink;
+}
+.summary-col{
+  display: flex; /* instead of using row, flex uses up unused space */
+  flex-wrap: wrap;
+}
+h2{
+  font-size: 3rem;
+  line-height: 3.6rem;
+}
+#summary p{
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: ff-tisa-web-pro, Georgia, serif;
+}
+.side-col-mg{
+  margin-top: 0;
+}
+h4{
+  color: cyan;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.side-ul-mg{
+  margin-top: 2.4rem;
+  text-decoration: none;
+  line-height: 1.9;
+  font-size: 1rem;
+  list-style-type: none;
+  font-weight: bold;
 }
