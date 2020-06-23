@@ -263,6 +263,7 @@ h4{
 #main-footer{
   background:#FFF;
   font-size: 20px;
+  margin-top: 80px;
 }
 
 #main-footer .profilep img{
@@ -270,7 +271,7 @@ h4{
     width: 32px;
     height: 32px;
     position: relative;
-    margin-top: 10rem;
+    margin-top: 0.1rem;
     margin-bottom: 0.7rem;
 }
 
@@ -293,10 +294,9 @@ h4{
   font-size: 16px;
   line-height: 25.6px;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .extra{
-  margin-top: 50px;
   background: #AAA;
 }
