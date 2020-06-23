@@ -101,7 +101,7 @@ input, select {
 p{
   display: block;
 }
-section, header, footer{
+section#summary, header, footer{
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
@@ -241,11 +241,13 @@ h2{
 #explore-head-section, #explore-section{
   background:#C9D4E2;
   color:#24231A;
+  padding-top: 96px;
 }
 
 #explore-section h2{
   margin-top: : 2rem;
   margin-bottom: : 3rem;
+  padding-bottom: 50px;
   font-size: 48px;
   color: #24231A;
   font-family: soleil, sans-serif;
@@ -255,7 +257,7 @@ h2{
 
 #explore-section hr{
   border-top: 1px solid black;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 #explore-section img{
@@ -289,8 +291,9 @@ h2{
 }
 
 #history-head-section h2{
-  padding-top: 32px;
-  padding-bottom: 64px;
+  /* padding-top: 32px;
+  padding-bottom: 64px; */
+  padding: 32px 72px 64px 72px;
   font-size: 48px;
   color: #F95959;
   font-family: soleil, sans-serif;
@@ -399,8 +402,4 @@ h2{
   line-height: 25.6px;
   text-align: center;
   padding-bottom: 30px;
-}
-
-.extra{
-  background: #AAA;
 }
