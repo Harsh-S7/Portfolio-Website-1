@@ -1,4 +1,3 @@
-
 /* Below is a css reset stylesheet */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -102,7 +101,7 @@ input, select {
 p{
   display: block;
 }
-#summary section, footer{
+section, header, footer{
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
@@ -215,7 +214,7 @@ h2{
   font-size: 3rem;
   line-height: 3.6rem;
 }
-#summary-section p{
+#summary p{
   margin-bottom: 3rem;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -224,7 +223,7 @@ h2{
 .side-col-mg{
   margin-top: 0;
 }
-#summary-section h4{
+#summary h4{
   color: cyan;
   font-size: 1.7rem;
   text-transform: uppercase;
@@ -244,9 +243,9 @@ h2{
   color:#24231A;
 }
 
-#explore-head-section h2{
-  padding-top: 64px;
-  padding-bottom: 32px;
+#explore-section h2{
+  margin-top: : 2rem;
+  margin-bottom: : 3rem;
   font-size: 48px;
   color: #24231A;
   font-family: soleil, sans-serif;
