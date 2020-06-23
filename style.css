@@ -224,7 +224,7 @@ h2{
 .side-col-mg{
   margin-top: 0;
 }
-h4{
+#summary h4{
   color: cyan;
   font-size: 1.7rem;
   text-transform: uppercase;
@@ -244,9 +244,9 @@ h4{
   color:#24231A;
 }
 
-#explore-head-section h1{
-  padding-top: 128px;
-  padding-bottom: 20px;
+#explore-head-section h3{
+  padding-top: 64px;
+  padding-bottom: 50px;
   font-size: 48px;
   color: #24231A;
   font-family: soleil, sans-serif;
@@ -254,12 +254,35 @@ h4{
   min-width: 400px;
 }
 
-/*
-#explore-head-section p{
-  width: 50%;
-}*/
+#explore-section hr{
+  border-top: 1px solid black;
+  padding-bottom: 50px;
+}
 
+#explore-section img{
+  height: 110px;
+  width: 146px;
+  position: relative;
+}
 
+#explore-section h3{
+  Padding-bottom: 20px;
+  font-size: 28px;
+  color: #F95959;
+  font-family: soleil, sans-serif;
+}
+#explore-section p{
+  Padding-bottom: 50px;
+  font-size: 20px;
+  color: #233142;
+  font-family: soleil, sans-serif;
+}
+#explore-section h4{
+  Padding-bottom: 20px;
+  font-size: 20px;
+  color: #737373;
+  font-family: soleil, sans-serif;
+}
 #main-footer{
   background:#FFF;
   font-size: 20px;
